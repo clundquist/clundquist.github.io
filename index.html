@@ -2,21 +2,20 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Assignment portal for Chris Lundquist in CIT 230-13 Web Frontend Development at Brigham Young University - Idaho">
     <title>CIT 230: Assignment Portal - Chris Lundquist</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/footer.js"></script>
   </head>
-  <body>
+  <body onload="setFooter()">
     <header>
       <h1>Chris Lundquist</h1>
-      <div>
-        <img id="profile" src="images/portrait.jpg" alt="Chris Lundquist">
-      </div>
+      <img id="profile" src="images/portrait.jpg" alt="Chris Lundquist">
     </header>
     <main>
       <h2>CIT 230: Assignment Portal</h2>
-      <hr id="hrmain">
+      <hr>
       <ul>
         <li>Lesson 02: <a href="#">Assignment Link</a></li>
         <li>Lesson 03: <a href="#">Assignment Link</a></li>
@@ -24,11 +23,8 @@
       </ul>
     </main>
     <footer>
-      &copy; <span id="currentyear"></span> - Chris Lundquist | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
-      <br>
-      <span id="lastmodified"></span>
-      <script src="js/currentyear.js"></script>
-      <script src="js/lastmodified.js"></script>
-    </footer>
-  </body>
+      <p>&copy; <span id="currentyear"></span> - Chris Lundquist | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+      <p><span id="lastmodified"></span></p>
+   </footer>
+  </body">
 </html>
