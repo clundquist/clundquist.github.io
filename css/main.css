@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+ }
+header, footer {
+    background-color: #556B2F;
+    border-radius: 10px 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+header {
+    font-size: 20px;
+}
+footer {
+    font-size: 14px;
+    line-height: 25px;
+}
+footer a {
+    color:white;
+}
+footer a:hover {
+    color: #BDB76B;
+}
+main {
+    padding: 0px 25px 0px;
+}
+#hrmain {
+    margin-top: -10px;
+}
+#lastmodified {
+    color: #BDB76B;
+}
+#profile {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    box-shadow: 3px 7px 15px #000000, -3px 3px 15px #000000;
+    float:right;
+    width:150px;
+}
