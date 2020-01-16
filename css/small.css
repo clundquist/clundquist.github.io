@@ -24,7 +24,7 @@ header, footer, main {
 
 header, footer {
     background-color: #556B2F;
-    color: #D3D3D3;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -42,11 +42,11 @@ footer {
 }
 
 footer a {
-    color:#D3D3D3;
+    color:#FFFFFF;
 }
 
 footer a:hover {
-    color: #BDB76B;
+    color: #FFFF00;
 }
 
 main {
@@ -69,5 +69,5 @@ p {
 }
 
 #lastmodified {
-    color: #BDB76B;
+    color: #FFFF00;
 }

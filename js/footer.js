@@ -1,4 +1,2 @@
-function setFooter() {
-    document.getElementById("currentyear").innerHTML = new Date().getFullYear();
-    document.getElementById("lastmodified").innerHTML = "Last Updated: " + document.lastModified;
-}
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+document.getElementById("lastmodified").textContent = "Last Updated: " + document.lastModified;
