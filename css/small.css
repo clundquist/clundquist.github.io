@@ -6,6 +6,18 @@ body {
     line-height: 1.5;
 }
 
+footer {
+    font-size: 14px;
+}
+
+footer a {
+    color:#ffffff;
+}
+
+footer a:hover {
+    color: #ffff00;
+}
+
 h1 {
     font-size: 1.5rem;
     margin: 0.15rem;
@@ -37,18 +49,6 @@ header {
 header img {
     height: auto;
     width: 150px;
-}
-
-footer {
-    font-size: 14px;
-}
-
-footer a {
-    color:#ffffff;
-}
-
-footer a:hover {
-    color: #ffff00;
 }
 
 main {

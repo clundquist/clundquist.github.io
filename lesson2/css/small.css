@@ -26,7 +26,7 @@ h3 {
 header, footer {
 	background-color: #002D5F;
 	color: #ffffff;
-	margin:auto;
+	margin: auto;
 	padding: .25em;
 }
 
@@ -54,4 +54,8 @@ section img{
     max-width: 95%;
     border: 1px solid;
     border-color: #b1b1b1;
+}
+
+#lastmodified {
+    color: #ffff00;
 }
