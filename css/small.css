@@ -1,6 +1,6 @@
 body {
-    background-color: #FFFFF0;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     height: 100%;
     line-height: 1.5;
@@ -23,13 +23,15 @@ header, footer, main {
 }
 
 header, footer {
-    background-color: #556B2F;
-    color: #FFFFFF;
+    background-color: #002D5F;
+    color: #ffffff;
+    padding: 1.25rem;
     text-align: center;
 }
 
 header {
     font-size: 20px;
+    line-height: 50px;
 }
 
 header img {
@@ -42,32 +44,31 @@ footer {
 }
 
 footer a {
-    color:#FFFFFF;
+    color:#ffffff;
 }
 
 footer a:hover {
-    color: #FFFF00;
+    color: #ffff00;
 }
 
 main {
-    padding: 0px 25px 0px;
-    color: #696969;
+    padding: 0 25px 0;
+    color: #000000;
 }
 
 main a {
-    color: #696969;
+    color: #0000cc;
 }
 
 main a:hover {
-    color: #BDB76B;
+    color: #0080ff;
 }
 
 p {
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 #lastmodified {
-    color: #FFFF00;
+    color: #ffff00;
 }
