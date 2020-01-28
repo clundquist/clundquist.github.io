@@ -1,0 +1,30 @@
+@media only screen and (min-width: 40em) {
+	footer {
+		width: 42em;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	header h1 {
+		font-size: 40px;
+	}
+		
+	header img {
+		float: left;
+		width: 75px;
+	}
+
+	main {
+		width: 40em;
+	}
+
+	nav ul { 
+		display: flex; 
+	}
+	
+	nav ul li { 
+		flex: 1 1 100%; 
+	}
+}

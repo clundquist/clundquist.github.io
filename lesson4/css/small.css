@@ -14,14 +14,6 @@ footer a:visited {
 	color: #ffffff;
 }
 
-h1 {
-	font-size: 20px;
-}
-
-h2 {
-	margin: 3px;
-}
-
 header {
 	line-height: .25em;
 	padding: .50em;
@@ -34,6 +26,10 @@ header, footer {
 	margin: auto;
 }
 
+header h1 {
+	font-size: 20px;
+}
+
 header img {
 	width: 75px;
 }
@@ -41,6 +37,11 @@ header img {
 main {
 	margin: auto;
 	padding: 0.8em;
+}
+
+main h2 {
+	margin: 3px;
+	text-align: center;
 }
 
 nav {
@@ -70,15 +71,6 @@ nav li a {
 	font-size: 0.95rem;
 }
 
-section img {
-	max-width: 100%;
-}
-
-section p {
-    text-align: left;
-    padding: 0 .5em 0 .5em;
-}
-
 .active {
 	background-color: #ffffff;
 	color: #000000;
@@ -88,21 +80,16 @@ section p {
 	font-style: italic;
 }
 
-.sec {
-    background-color: #efefef;
-    border: 1px solid;
-	border-color: #000000;
-	margin-top: 10px;
+.contentbox {
+    background-color: #eeeeee;
+	border: 1px dashed #000000;
+	color: #444444;
+	display: block;
+	font-style: italic;
+	margin: 10px auto;
+	padding: 15px;
 }
 
 .sitelogo {
     width: 200px;
-}
-
-.typography {
-    width: 100px;
-}
-
-#lastmodified {
-    color: #ffbf0d;
 }
