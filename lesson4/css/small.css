@@ -16,7 +16,7 @@ footer a:visited {
 
 header {
 	line-height: .25em;
-	padding: .50em;
+	padding: 1.75em;
 	width: 100%;
 }
 
@@ -27,11 +27,17 @@ header, footer {
 }
 
 header h1 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 header img {
+	float: left;
 	width: 75px;
+}
+
+header p {
+	font-style: italic;
+	font-size: 14px;
 }
 
 main {
@@ -55,11 +61,12 @@ nav a:hover {
 	color: #000000;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	font-size: 1.6rem;
+	color: #ffffff;
 }
 
 nav li a {
@@ -71,14 +78,27 @@ nav li a {
 	font-size: 0.95rem;
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul.hide {
+	display: none;
+}
+
 .active {
 	background-color: #ffffff;
 	color: #000000;
 }
 
-.moto {
-	font-style: italic;
-}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
 .contentbox {
     background-color: #eeeeee;

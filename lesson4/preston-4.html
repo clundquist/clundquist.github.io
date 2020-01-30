@@ -19,10 +19,8 @@
       <p class="moto">Weather information when you need it</p>
     </header>
     <nav class="navbar">
-      <span class="navtoggle" id="js-navbar-toggle">
-        <i class="fas fa-bars"></i>
-      </span>
-      <ul class="navitems">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="navitems" class="hide">
         <li><a href="#home">Home</a></li>
         <li><a href="#preston" class="active">Preston</a></li>
         <li><a href="#sodasprings">Soda Springs</a></li>
@@ -44,6 +42,6 @@
         <span id="currentDate"></span>
       </p>
     </footer>
-    <script src="js/footer.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
