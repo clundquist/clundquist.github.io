@@ -44,30 +44,30 @@ main h2 {
 
 nav {
 	clear: left;
-	background-color: #2892d0;
+	background-color: #efcc00; 
 	text-align: center;
 }
 
 nav a:hover {
-	background-color: #ffe20d;
+	background-color: #0baeff;
 	color: #000000;
 }
 
 nav button {
-	margin: .5rem;
 	background-color: transparent;
 	border: none;
+	color: #000000;
 	font-size: 1rem;
-	color: #ffffff;
+	margin: .5rem;
 }
 
 nav li a {
+	color: #000000;
 	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
 	font-size: 0.95rem;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
 }
 
 nav ul {
