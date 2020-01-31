@@ -3,14 +3,10 @@
 		width: 52em;
 	}
 
-	header h1 {
-		font-size: 40px;
+	header img {
+		width: 100%;
 	}
-		
-	header p {
-		font-size: 16px;
-	}
-	
+
 	main {
 		width: 50em;
 	}
@@ -33,5 +29,15 @@
 
 	nav ul.hide {
 		display: flex;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.moto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
 	}
 }

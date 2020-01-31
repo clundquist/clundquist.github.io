@@ -14,12 +14,16 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><img src="images/logo-small.png" alt="logo"></a>
-      <h1>The Weather Lowdown</h1>
-      <p class="moto">Weather information when you need it</p>
+      <picture>
+        <img src="images/logo.png" alt="logo">
+      </picture>
+      <section class="headings">
+        <h1>The Weather Lowdown</h1>
+        <div class="moto">Weather information when you need it</div>
+      </section>
     </header>
     <nav class="navbar">
-      <button onclick="toggleMenu()">&#9776;</button>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="navitems" class="hide">
         <li><a href="#home">Home</a></li>
         <li><a href="#preston" class="active">Preston</a></li>
@@ -38,7 +42,7 @@
     </main>
     <footer>
       <p>
-        &copy; The Weather Lowdown | <a href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Learning</a> | Chris Lundquist<br>
+        &copy; The Weather Lowdown | BYUI Online Learning | Chris Lundquist<br>
         <span id="currentDate"></span>
       </p>
     </footer>

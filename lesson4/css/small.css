@@ -10,14 +10,11 @@ footer {
 	padding: .10em;
 }
 
-footer a:visited {
-	color: #ffffff;
-}
-
 header {
-	line-height: .25em;
-	padding: 1.75em;
-	width: 100%;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
 header, footer {
@@ -31,13 +28,8 @@ header h1 {
 }
 
 header img {
-	float: left;
-	width: 75px;
-}
-
-header p {
-	font-style: italic;
-	font-size: 14px;
+	width: 80px;
+	height: auto;
 }
 
 main {
@@ -62,16 +54,16 @@ nav a:hover {
 }
 
 nav button {
-	margin: .2rem 2%;
+	margin: .5rem;
 	background-color: transparent;
 	border: none;
-	font-size: 1.6rem;
+	font-size: 1rem;
 	color: #ffffff;
 }
 
 nav li a {
 	display: block;
-	color: #000000;
+	color: #ffffff;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -110,6 +102,20 @@ nav ul.hide {
 	padding: 15px;
 }
 
-.sitelogo {
-    width: 200px;
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.moto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #ffffff;
+	margin-left: 20px;
+	font-size: .9rem;
 }
