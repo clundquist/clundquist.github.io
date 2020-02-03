@@ -1,0 +1,43 @@
+@media only screen and (min-width: 60em) {
+	footer {
+		width: 52em;
+	}
+
+	header img {
+		width: 100%;
+	}
+
+	main {
+		width: 50em;
+	}
+
+	nav button {
+		display: none;
+	}
+		
+	nav ul {
+		display: flex;				
+	}
+
+	nav ul li {
+		flex: 1 1 100%; 
+	}
+	
+	nav ul li a {
+		border: none;
+	}
+
+	nav ul.hide {
+		display: flex;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.moto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+}
