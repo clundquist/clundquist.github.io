@@ -4,7 +4,6 @@ var today = new Date();
 var dayOfWeek = dayArray[today.getDay()];
 var monthName = monthArray[today.getMonth()];
 var currentDate = dayOfWeek + ", " + today.getDate() + " " + monthName + " " + (today.getYear() + 1900);
-document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("currentDate").innerHTML = currentDate;
 
 function toggleMenu() {
