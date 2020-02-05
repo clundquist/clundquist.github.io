@@ -10,6 +10,15 @@ footer {
 	padding: .10em;
 }
 
+footer a {
+	color:#ffffff;
+	text-decoration: none;
+}
+
+footer a:hover {
+    color: #efcc00;
+}
+
 header {
 	padding: 5px 0;
 	display: flex;
@@ -20,7 +29,6 @@ header {
 header, footer {
 	background-color: #2e5098;
 	color: #ffffff;
-	margin: auto;
 }
 
 header h1 {
@@ -33,6 +41,7 @@ header img {
 }
 
 main {
+	align-items: center;
 	margin: auto;
 	padding: 0.8em;
 }
@@ -112,10 +121,37 @@ nav ul.hide {
 	margin: 0 0 0 17px;
 }
 
+.herodiv {
+	border: 1px dashed cyan;
+	height: 300px;
+	margin: 10px auto;
+	position: relative;
+	width: 750px;
+}
+
+.hero {
+	background-color: #eeeeee;
+	border: 1px solid #333333;
+	height: 250px;
+	margin: 10px auto;
+	width: 100%;
+}
+
 .moto {
 	font-style: italic;
 	letter-spacing: 1pt;
 	color: #ffffff;
 	margin-left: 20px;
 	font-size: .9rem;
+}
+
+.weathersummary {
+	background: radial-gradient(#eeeeee, #2e5098);
+	border: 1px solid #000000;
+	box-shadow: 0 0 30px #111111;
+	left: 50px;
+	opacity: .8;
+	padding: 1.5em;
+	position: absolute;
+	top: 25px;
 }
