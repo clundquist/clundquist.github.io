@@ -10,14 +10,6 @@ footer {
 	padding: .10em;
 }
 
-footer a:visited {
-	color:#ffffff;
-}
-
-footer a:hover {
-    color: #efcc00;
-}
-
 header {
 	padding: 5px 0;
 	display: flex;
