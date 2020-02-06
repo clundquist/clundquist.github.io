@@ -42,6 +42,11 @@ main h2 {
 	text-align: center;
 }
 
+main h3 {
+	margin: 3px;
+	text-align: center;
+}
+
 nav {
 	clear: left;
 	background-color: #efcc00; 
@@ -92,14 +97,38 @@ nav ul.hide {
 	clear: both;
   }
 
-.contentbox {
-    background-color: #eeeeee;
-	border: 1px dashed #000000;
-	color: #444444;
+.col {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	background-color: #eeeeee;
+	flex: 1 1 100%;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+.data {
+	color: #000000;
 	display: block;
-	font-style: italic;
-	margin: 10px auto;
-	padding: 15px;
+	padding: 5px;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.flex div img {
+	border-radius: 100px;
+	padding: 5px;
+}
+
+.flex div:last-child {
+	border-right: 1px solid #000000;
 }
 
 .headings {
@@ -113,7 +142,6 @@ nav ul.hide {
 }
 
 .herodiv {
-	border: 1px dashed cyan;
 	height: 300px;
 	margin: 10px auto;
 	position: relative;
@@ -121,11 +149,20 @@ nav ul.hide {
 }
 
 .hero {
-	background-color: #eeeeee;
 	border: 1px solid #333333;
-	height: 250px;
+	height: 283px;
 	margin: 10px auto;
 	width: 100%;
+}
+
+.label {
+	background-color: #2e5098;
+	border-bottom: 1px solid #000000;
+	color: #ffffff;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 5px;
 }
 
 .moto {
@@ -141,6 +178,7 @@ nav ul.hide {
 	border: 1px solid #000000;
 	box-shadow: 0 0 30px #111111;
 	left: 50px;
+	line-height: .5em;
 	opacity: .8;
 	padding: 1.5em;
 	position: absolute;
