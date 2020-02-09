@@ -1,10 +1,17 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 32em) {
 	header img {
 		width: 75%;
 	}
 
-	main {
-		width: 40em;
+	.headings h1 {
+		font-size: 2em;
+		margin-left: .3em;
+	}
+
+	.moto {
+		letter-spacing: 1.5pt;
+		font-size: small;
+		margin-left: .5em;
 	}
 
 	nav button {
@@ -21,9 +28,79 @@
 	
 	nav ul li a {
 		border: none;
+        font-size: .8em;
+        text-align: center;
+        white-space: nowrap;
 	}
 
 	nav ul.hide {
 		display: flex;
 	}
+
+	.forecast {
+		display: block;
+		flex-direction: row;
+		max-width: 28em;
+		margin: 0 auto;
+	}
+	
+	.week {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.week div img {
+		padding: .5em;
+	}
+	
+	.week div:last-child {
+		border-right: 1px solid #000000;
+	}
+	
+	.day {
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+		flex: 1 1 100%;
+		font-size: .7em;
+	}
+	
+	.label {
+		background-color: #2e5098;
+		border-bottom: 1px solid #000000;
+		color: #ffffff;
+		display: block;
+		font-size: 1.5em;
+		font-weight: 700;
+		padding: .3em;
+	}
+	
+	.temp {
+		color: #000000;
+		display: block;
+		padding: .3em;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+
+	article {
+		font-size: 1em;
+	}
+	
+	article img {
+		width: 16em;
+		float: right;
+		margin: 1em;
+	}
+	
+	article h3 {
+		font-size: 1.2em;
+	}
+
+	.map {
+		border: 1px solid #000000;
+		display: block;
+		float: left;
+		width: 100%;
+	}	
 }

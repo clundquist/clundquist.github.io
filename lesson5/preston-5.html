@@ -3,17 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="CIT 230 - Lesson 5: Preston Town Page - Chris Lundquist">
+    <meta name="description" content="The Weather Lowdown - Town of Preston">
 
-    <title>CIT 230 - Lesson 5: Preston Town Page - Chris Lundquist</title>
+    <title>The Weather Lowdown - Town of Preston</title>
 
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
   </head>
   <body>
+    <div id="notice">
+      Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park.
+    </div>
     <header>
       <picture>
         <img src="images/logo.png" alt="logo">
@@ -23,9 +26,9 @@
         <div class="moto">Weather information when you need it</div>
       </section>
     </header>
-    <nav class="navbar">
+    <nav>
       <button onclick="toggleMenu()">&#9776; Menu</button>
-      <ul id="navitems" class="hide">
+      <ul id="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#preston" class="active">Preston</a></li>
         <li><a href="#sodasprings">Soda Springs</a></li>
@@ -36,8 +39,8 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="herodiv">
-          <div class="hero">
+        <div class="hero">
+          <div>
             <img src="images/preston.jpg" alt="Preston">
           </div>
           <section class="weathersummary">
@@ -49,32 +52,62 @@
             <p>Wind Speed: 5 mph</p>
           </section>
         </div>
-        <h3>5 Day Forecast</h3>
-        <div class="flex">
-          <div class="col">
-            <span class="label">Wed</span>
-            <img src="images/sunny.png" alt="Sunny">
-            <span class="data">89&#8457</span>
+        <div class="forecast">
+          <h3>5 Day Forecast</h3>
+          <div class="week">
+            <div class="day">
+              <span class="label">Wed</span>
+              <img src="images/sunny.png" alt="Sunny">
+              <span class="temp">89&#8457</span>
+            </div>
+            <div class="day">
+              <span class="label">Thu</span>
+              <img src="images/sunny.png" alt="Sunny">
+              <span class="temp">87&#8457</span>
+            </div>
+            <div class="day">
+              <span class="label">Fri</span>
+              <img src="images/sunny.png" alt="Sunny">
+              <span class="temp">78&#8457</span>
+            </div>
+            <div class="day">
+              <span class="label">Sat</span>
+              <img src="images/sunny.png" alt="Sunny">
+              <span class="temp">75&#8457</span>
+            </div>
+            <div class="day">
+              <span class="label">Sun</span>
+              <img src="images/sunny.png" alt="Sunny">
+              <span class="temp">72&#8457</span>
+            </div>
           </div>
-          <div class="col">
-            <span class="label">Thu</span>
-            <img src="images/sunny.png" alt="Sunny">
-            <span class="data">87&#8457</span>
-          </div>
-          <div class="col">
-            <span class="label">Fri</span>
-            <img src="images/sunny.png" alt="Sunny">
-            <span class="data">78&#8457</span>
-          </div>
-          <div class="col">
-            <span class="label">Sat</span>
-            <img src="images/sunny.png" alt="Sunny">
-            <span class="data">75&#8457</span>
-          </div>
-          <div class="col">
-            <span class="label">Sun</span>
-            <img src="images/sunny.png" alt="Sunny">
-            <span class="data">72&#8457</span>
+        </div>
+        <article>
+          <img src="images/foundationpark.jpg" alt="Foundation Park">
+          <h3>Founders Day Fresco</h3>
+          <h5>by Janica Juarez</h5>
+          <p>
+            I recently reflected upon the founders day event held at Foundation Park each year. I have been taking the festival for granted and have not been
+            properly engaging in perhaps the most popular community event of the year. In response, I contacted Ms. Sharon via email and expressed my desire to
+            serve on the event committee. Well, you guessed it, the phone rings almost immediately and she promptly asks me to be the event committee chair. 
+            Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers and sponsors has escalated beyond what I thought
+            I could feel for such a thing and... <a href="#">continue to full article</a>
+          </p>
+        </article>
+        <div class="contact">
+          <img class="map" src="images/prestonmap.png" alt="Preston Idaho Map">
+          <div class="info">
+            <p>
+              The Weather Lowdown<br>
+              &#x1F4CD; 30 N 1st E<br>
+              Preston, ID 83263<br><br>
+              &#9742; 999.999.9999<br>
+              &#9993; info@theweatherlowdown.com<br>
+              <img src="images/facebook.png" alt="Facebook">
+              <img src="images/pinterest.png" alt="Pinterest">
+              <img src="images/twitter.png" alt="Twitter">
+              <img src="images/whatsapp.png" alt="Whatsapp">
+            </p>
           </div>
         </div>
     </main>
@@ -84,6 +117,8 @@
         <span id="currentDate"></span>
       </p>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="js/notice.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/footer.js"></script>
   </body>
 </html>

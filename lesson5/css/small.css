@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0 0;
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
 
-footer {
-	text-align: center;
-	padding: .10em;
+#notice {
+	background-color: #efcc00;
+	display: none;
+	padding: .5em;
 }
 
 header {
-	padding: 5px 0;
+	padding: .5em 0;
 	display: flex;
 	align-items:center;
 	justify-content:center;
@@ -20,37 +21,49 @@ header {
 header, footer {
 	background-color: #2e5098;
 	color: #ffffff;
+	text-align: center;
 }
 
 header h1 {
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 header img {
-	width: 80px;
+	width: 4em;
 	height: auto;
 }
 
-main {
-	align-items: center;
-	margin: auto;
-	padding: 0.8em;
+.headings {
+	display: flex;
+	flex-direction: column;
 }
 
-main h2 {
-	margin: 3px;
-	text-align: center;
+.headings h1 {
+	font-size: 1.6em;
+	margin: 0 0 0 .5em;
+	text-align: left;
 }
 
-main h3 {
-	margin: 3px;
-	text-align: center;
+.moto {
+	color: #ffffff;
+	font-size: x-small;
+	font-style: italic;
+	letter-spacing: .01em;
+	margin-left: 1em;
+	text-align: left;
 }
 
 nav {
 	clear: left;
 	background-color: #efcc00; 
-	text-align: center;
+}
+
+nav button {
+	background-color: transparent;
+	border: none;
+	color: #000000;
+	font-size: 1em;
+	margin: .5rem;
 }
 
 nav a:hover {
@@ -58,20 +71,11 @@ nav a:hover {
 	color: #000000;
 }
 
-nav button {
-	background-color: transparent;
-	border: none;
-	color: #000000;
-	font-size: 1rem;
-	margin: .5rem;
-}
-
 nav li a {
 	color: #000000;
 	display: block;
-	font-size: 0.95rem;
-	padding: 0.75rem;
-	text-align: center;
+	font-size: 0.95em;
+	padding: 0.75em;
 	text-decoration: none;
 }
 
@@ -92,95 +96,89 @@ nav ul.hide {
 }
 
 .clearfix:after {
+	clear: both;
 	content: "";
 	display: table;
-	clear: both;
-  }
+}
 
-.col {
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
-	border-left: 1px solid #000000;
-	background-color: #eeeeee;
-	flex: 1 1 100%;
-	font-size: 13px;
+main {
+    max-width: 50em;
+	margin: 0 auto;
+	margin-top: 1.5em;
+}
+
+main h2 {
+	margin: .3em;
 	text-align: center;
 }
 
-
-.data {
-	color: #000000;
-	display: block;
-	padding: 5px;
-	font-weight: 700;
-	font-size: 15px;
-}
-
-.flex {
-	display: flex;
-	flex-direction: row;
-	position: relative;
-}
-
-.flex div img {
-	border-radius: 100px;
-	padding: 5px;
-}
-
-.flex div:last-child {
-	border-right: 1px solid #000000;
-}
-
-.headings {
-	display: flex;
-	flex-direction: column;
-}
-
-.headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
-}
-
-.herodiv {
-	height: 300px;
-	margin: 10px auto;
-	position: relative;
-	width: 750px;
+main h3 {
+	margin: .3em;
 }
 
 .hero {
-	border: 1px solid #333333;
-	height: 283px;
-	margin: 10px auto;
-	width: 100%;
+    position: relative;
 }
 
-.label {
-	background-color: #2e5098;
-	border-bottom: 1px solid #000000;
-	color: #ffffff;
-	display: block;
-	font-size: 15px;
-	font-weight: 700;
-	padding: 5px;
-}
-
-.moto {
-	font-style: italic;
-	letter-spacing: 1pt;
-	color: #ffffff;
-	margin-left: 20px;
-	font-size: .9rem;
+.hero img {
+	max-width: 90%;
 }
 
 .weathersummary {
 	background: radial-gradient(#eeeeee, #2e5098);
 	border: 1px solid #000000;
 	box-shadow: 0 0 30px #111111;
-	left: 50px;
+	left: 3.8em;
 	line-height: .5em;
 	opacity: .8;
-	padding: 1.5em;
+	padding: 1em;
 	position: absolute;
-	top: 25px;
+	top: 1.2em;
+}
+
+.forecast {
+	display: none;
+}
+
+article {
+	background-color: #dce5ef;
+	display: block;
+    padding: 2em 2em 1em 2em;
+	text-align: left;
+	margin: 1.5em 1.5em 0 1.5em;
+}
+
+article img {
+	box-shadow: 0 0 2em 0 #111111;
+	height: auto;
+}
+
+article h5 {
+	font-style: italic;
+}
+
+article p {
+    padding: 0 1em 0 0;
+}
+
+.contact {
+	background-color: #9CB2E3;
+	color: #000000;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 1.5em 1.5em 0 1.5em;
+	padding: 1em;
+}
+
+.map {
+	display: none;
+}
+
+.info {
+	padding: 3em 5em 1em 5em;
+	text-align: left;
+}
+
+footer {
+	padding: .10em;
 }
