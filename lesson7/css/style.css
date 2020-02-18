@@ -1,0 +1,29 @@
+img[data-src] {
+    filter: blur(0.1em);
+  }
+
+body {
+  align-items: center;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+picture {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+picture img {
+    border: 5px;
+    border-style: ridge;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+h1 { 
+   text-align: center;
+}
