@@ -1,0 +1,28 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+	/*----------- HEADER --------------*/
+	.headings h1 {
+		font-size: 3rem;
+		margin-left: .5rem;
+	}
+	.moto {
+		letter-spacing: .1rem;
+		font-size: large;
+		margin-left: 1.2rem;
+	}
+
+	/*----------- MAIN --------------*/
+	.gallery {
+		grid-gap: 1rem;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	figure:hover {
+		background-color: #efefef;
+		box-shadow: 0 0 .5rem 0 #000000;
+		padding: .5rem;
+		margin: .5rem 0;
+	}
+
+	/*---------- NAVIGATION -----------*/
+	nav ul li a { font-size: 1rem; }	
+} /* end of media query */

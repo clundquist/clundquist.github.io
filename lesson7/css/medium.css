@@ -1,0 +1,31 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+	/*----------- HEADER --------------*/
+	.headings h1 {
+		font-size: 2rem;
+		margin-left: .3rem;
+	}
+	.moto {
+		letter-spacing: 1.5pt;
+		font-size: small;
+		margin-left: .5rem;
+	}
+
+	/*---------- NAVIGATION -----------*/
+	nav button { display: none; }
+	nav ul { display: flex;	}
+	nav ul.hide { display: flex; }
+	nav ul li { flex: 1 1 100%; }
+	nav ul li a {
+		border: none;
+        font-size: .8rem;
+        text-align: center;
+        white-space: nowrap;
+	}
+
+	/*----------- MAIN --------------*/
+	.gallery {
+		grid-gap: 1rem;
+		grid-template-columns: 1fr 1fr;
+	}
+} /* end of media query */

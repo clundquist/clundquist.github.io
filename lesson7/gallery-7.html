@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>The Weather Lowdown - Gallery</title>
+    <meta name="description" content="The Weather Lowdown - Gallery">
+ 
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <div id="notice">
+      Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park.
+    </div>
+    <header>
+      <picture>
+        <img src="/lesson6/images/logo.png" alt="logo">
+      </picture>
+      <section class="headings">
+        <h1>The Weather Lowdown</h1>
+        <div class="moto">Weather information when you need it</div>
+      </section>
+    </header>
+    <nav>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#preston">Preston</a></li>
+        <li><a href="#sodasprings">Soda Springs</a></li>
+        <li><a href="#fishhaven">Fish Haven</a></li>
+        <li><a href="#stormcenter">Storm Center</a></li>
+        <li><a href="#gallery" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+    <h1>Weather Gallery</h1>
+    <div class="gallery">
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/clouds.jpg" alt="Clouds over city">
+            <figcaption>Clouds over city</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/frozen.jpg" alt="Snow covered road">
+            <figcaption>Snow covered road</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/lightning.jpg" alt="Lightning storm">
+            <figcaption>Lightning storm</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/tornado.jpg" alt="Tornado in field">
+            <figcaption>Tornando in field</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/sunny.jpg" alt="Sunrise in the fields">
+            <figcaption>Sunrise in the fields</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/winter.jpg" alt="Winter conditions">
+            <figcaption>Winter conditions</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/rainbow.jpg" alt="Rainbow after rain">
+            <figcaption>Rainbow after rain</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/mtrainier.jpg" alt="Mount Rainier in Spring">
+            <figcaption>Mount Rainier in Spring</figcaption>
+        </figure>
+        <figure>
+            <img src="images/imgplaceholder.jpg" data-src="images/geyser.jpg" alt="Erupting geyser">
+            <figcaption>Erupting geyser</figcaption>
+        </figure>
+        </div>
+    </main>
+    <footer>
+      <p>
+        &copy; The Weather Lowdown | BYUI Online Learning | Chris Lundquist<br>
+        <span id="currentDate"></span>
+      </p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonthandler.js"></script>
+    <script src="js/imagehandler.js"></script>
+</body>
+</html>
