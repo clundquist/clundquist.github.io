@@ -4,7 +4,7 @@ html { -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; }
 
 body {
 	margin: 0 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto, sans-serif;
 	text-align: center;
 }
 #notice {
@@ -116,10 +116,4 @@ footer {
 	color: #fff;
 	padding: .1rem;
 	text-align: center;
-}
-
-.clearfix:after {
-	clear: both;
-	content: "";
-	display: table;
 }
