@@ -1,6 +1,4 @@
-/* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 35rem) {
-	/*----------- HEADER --------------*/
 	.headings h1 {
 		font-size: 2rem;
 		margin-left: .3rem;
@@ -11,7 +9,6 @@
 		margin-left: .5rem;
 	}
 
-	/*---------- NAVIGATION -----------*/
 	nav button { display: none; }
 	nav ul { display: flex;	}
 	nav ul.hide { display: flex; }
@@ -23,9 +20,8 @@
         white-space: nowrap;
 	}
 
-	/*----------- MAIN --------------*/
 	.gallery {
 		grid-gap: 1rem;
 		grid-template-columns: 1fr 1fr;
 	}
-} /* end of media query */
+}

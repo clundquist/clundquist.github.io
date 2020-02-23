@@ -1,10 +1,7 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 html { -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; }
 
-/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/*----------- BODY --------------*/
 body {
 	margin: 0 0;
 	font-family: 'Roboto', sans-serif;
@@ -16,11 +13,10 @@ body {
 	padding: .5rem;
 }
 
-/*----------- HEADER --------------*/
 header {
 	align-items:center;
 	background-color: #2e5098;
-	color: #ffffff;
+	color: #fff;
 	display: flex;
 	justify-content:center;
 	padding: .5rem 0;
@@ -41,7 +37,7 @@ header img {
 	text-align: left;
 }
 .moto {
-	color: #ffffff;
+	color: #fff;
 	font-size: x-small;
 	font-style: italic;
 	letter-spacing: .01rem;
@@ -49,7 +45,6 @@ header img {
 	text-align: left;
 }
 
-/*---------- NAVIGATION -----------*/
 nav {
 	clear: left;
 	background-color: #efcc00; 
@@ -57,19 +52,19 @@ nav {
 nav button {
 	background-color: transparent;
 	border: none;
-	color: #000000;
+	color: #000;
 	font-size: 1rem;
 	margin: .5rem;
 }
 nav a:hover {
 	background-color: #0baeff;
-	color: #000000;
+	color: #000;
 }
 nav li a {
-	color: #000000;
+	color: #000;
 	display: block;
-	font-size: 0.95rem;
-	padding: 0.75rem;
+	font-size: .95rem;
+	padding: .75rem;
 	text-decoration: none;
 }
 nav ul {
@@ -80,11 +75,10 @@ nav ul {
 }
 nav ul.hide { display: none; }
 .active {
-	background-color: #ffffff;
-	color: #000000;
+	background-color: #fff;
+	color: #000;
 }
   
-/*----------- MAIN --------------*/
 main {
     max-width: 50rem;
 	margin: 0 auto;
@@ -102,7 +96,7 @@ main h3 { margin: .3rem; }
 }
 .gallery img {
 	border: 1px;
-	border-color: #000000;
+	border-color: #000;
 	border-style: solid;
 	width: 100%;
 }
@@ -117,11 +111,10 @@ figcaption {
 	
 }
 
-/*----------- FOOTER --------------*/
 footer {
 	background-color: #2e5098;
-	color: #ffffff;
-	padding: .10rem;
+	color: #fff;
+	padding: .1rem;
 	text-align: center;
 }
 
