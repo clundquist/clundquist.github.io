@@ -1,60 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-html {
-  font-family: Ubuntu, sans-serif;
-}
-
 table {
-  border-collapse: collapse;
   box-shadow: .5rem .5rem .9rem #628ca6;
-  width:24%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-td {
-  padding: .5rem 1rem;
-  text-align: center;
 }
 
 table, th, td {
   border: 1px solid #c5c5c5;
+  border-collapse: collapse;
+  font-family: Ubuntu, sans-serif;
 }
 
-thead th {
-  background-color: #628ca6;
-  color:White;
-  font-size: 16px;
-  padding: 10px;
-  width: 33%;
+td, th {
+  padding: .5rem;
+  text-align: center;
 }
 
-thead td {
+thead {
+  font-size: 1.5rem;
+}
+
+thead th, tfoot td {
   background-color: #7fb9c2;
-  font-size: 24px;
-  font-weight: bolder;
 }
 
-tbody tr td {
-  background-color:#e7f0ed;
+tbody th, .active {
+  background-color: #628ca6;
+  color: #ffffff;
 }
 
-tbody tr:nth-child(even) td {
+tbody td {
   background-color:#e7ffed;
 }
 
-tbody th {
-  background-color: #e7f0ed;
-  font-style: italic;
-  font-weight: normal;
+tbody tr:nth-child(even) td {
+  background-color:#e7f0ed;
 }
 
-#active {
-  background-color: #628ca6;
-  color:white;
+tbody span{
+	font-style: italic;
 }
 
 tfoot {
-  background-color: #7fb9c2;
   font-size:.7em;
 }
