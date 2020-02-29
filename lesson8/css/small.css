@@ -1,0 +1,147 @@
+html { -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	margin: 0 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+header {
+	align-items:center;
+	background-color: #2e5098;
+	color: #ffffff;
+	display: flex;
+	justify-content:center;
+	padding: .5rem 0;
+	text-align: center;
+}
+header h1 { font-size: 1.5rem; }
+header img {
+	max-width: 75%;
+	padding: 10px;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 .5rem;
+	text-align: left;
+}
+.moto {
+	color: #ffffff;
+	font-size: x-small;
+	font-style: italic;
+	letter-spacing: .01rem;
+	margin-left: 1rem;
+	text-align: left;
+}
+
+
+nav {
+	clear: left;
+	background-color: #efcc00; 
+}
+nav button {
+	background-color: transparent;
+	border: none;
+	color: #000;
+	font-size: 1rem;
+	margin: .5rem;
+}
+nav a:hover {
+	background-color: #0baeff;
+	color: #000;
+}
+nav li a {
+	color: #000;
+	display: block;
+	font-size: .95rem;
+	padding: .75rem;
+	text-decoration: none;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul.hide { display: none; }
+.active {
+	background-color: #fff;
+	color: #000;
+}
+  
+main {
+    max-width: 50rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+}
+main h2 {
+	margin: .3rem;
+	text-align: center;
+}
+main h3 { margin: .3rem; }
+main form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+	margin: auto;
+	padding: 1rem;
+	max-width: 23rem;
+	text-align: left;
+}
+#date {
+	margin-bottom: 0;
+	padding-bottom: .5rem;
+}
+label, input, select, textarea {
+	display: block;
+	width: 100%;
+}
+form fieldset { border: 1px solid #000000; }
+fieldset legend {
+	color:#000000;
+	padding: 0 .4rem;
+}
+form label {
+	font-size: 80%;
+	padding-top: .5rem;
+}
+input[type="range"] { width: 80%; }
+input[type="submit"] {
+	background-color: #2e5098;
+	color:white;
+	padding: .5rem 0;
+	transition: background-color linear .2s, transform linear .2s;
+	width: 100%;
+}
+input[type="submit"]:hover {
+	background-color: #0baeff;
+	color:#ffffff;
+}
+fieldset { border-radius: .5rem; }
+.inline {
+	width: initial;
+	display: inline-block;
+	padding: 0;
+}
+input, textarea, select { 
+	padding: .5rem .5rem; 
+}
+.required { color: red; }
+
+footer {
+	background-color: #2e5098;
+	color: #ffffff;
+	padding: .10rem;
+	text-align: center;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
