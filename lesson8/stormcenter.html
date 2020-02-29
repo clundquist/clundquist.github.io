@@ -35,11 +35,11 @@
     </nav>
     <main>
       <h3>Report a storm or unusual weather event in your area</h3>
-      <form method="POST" action="thanks.html">
+      <form method="GET" action="thanks.html">
         <fieldset>
           <legend>Contact Information</legend>
           <label class="note"><span class="required">*</span> indicates required</label>
-          <label>Full Name<span class="required">*</span><input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
+          <label>Full Name<span class="required">*</span><input type="text" name="fullname" pattern="[A-Za-z ]{5,}" placeholder="at least 5 characters" required></label>
           <label>Email<input type="email" name="email" placeholder="example@domain.com"></label>
           <label>Phone Number<span class="required">*</span><input type="tel" name="phonenumber" required></label>
           <label>Zip Code<span class="required">*</span><input type="number" name="zipcode" required></label>
@@ -83,10 +83,7 @@
           <label><input class="inline" type="radio" name="indanger" value="yes"> Yes</label>
           <label><input class="inline" type="radio" name="indanger" value="no"> No</label>
           <label><input class="inline" type="radio" name="indanger" value="maybe"> Maybe</label>
-        </fieldset>
-        <fieldset>
-          <legend>Additional Information or Comments</legend>
-          <label>
+          <label>Additional Information or Comments
             <textarea name="comments" id="comments" placeholder="Comments..."></textarea>
           </label>
         </fieldset>
