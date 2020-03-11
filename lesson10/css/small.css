@@ -1,0 +1,239 @@
+html { -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	margin: 0 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+/* heading section */
+#notice {
+	background-color: #efcc00;
+	display: none;
+	padding: .5em;
+}
+header {
+	align-items:center;
+	background-color: #2e5098;
+	color: #ffffff;
+	display: flex;
+	justify-content:center;
+	padding: .5rem 0;
+	text-align: center;
+}
+header h1 { font-size: 1.5rem; }
+header img {
+	max-width: 75%;
+	padding: 10px;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 .5rem;
+	text-align: left;
+}
+.moto {
+	color: #ffffff;
+	font-size: x-small;
+	font-style: italic;
+	letter-spacing: .01rem;
+	margin-left: 1rem;
+	text-align: left;
+}
+
+/* navigtion section */
+nav {
+	clear: left;
+	background-color: #efcc00; 
+}
+nav button {
+	background-color: transparent;
+	border: none;
+	color: #000;
+	font-size: 1rem;
+	margin: .5rem;
+}
+nav a:hover {
+	background-color: #0baeff;
+	color: #000;
+}
+nav li a {
+	color: #000;
+	display: block;
+	font-size: .95rem;
+	padding: .75rem;
+	text-decoration: none;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul.hide { display: none; }
+.active {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/* home page */
+.cities { margin: 1rem 1rem 1rem 1rem; }
+.cities section { margin: 1rem 0 1rem 0; }
+.cities section img { width: 100%; }
+.cities p, .cities h2, .cities h3 {
+	background-color: #dce5ef;
+	margin: 0;
+	text-align: center;	
+}
+.cities h2 { padding: 10px 15px 10px 15px; }
+.cities h3 { font-style: italic; }
+.latestnews {
+	box-shadow: 0 0 2rem 0 #111111;
+	height: auto;
+	margin: 1rem 0 0 0;
+	text-align: left;
+}
+
+/* preston page */
+.prestonnews, .lowdown {
+	background-color: #dce5ef;
+	display: block;
+    padding: 2rem 2rem 1rem 2rem;
+	text-align: left;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.prestonnews img {
+	box-shadow: 0 0 2rem 0 #111111;
+	height: auto;
+}
+.prestonnews h5 { font-style: italic; }
+.prestonnews p { padding: 0 1em 0 0; }
+.contact {
+	background-color: #9cb2e3;
+	color: #000000;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 1.5rem 1.5rem 0 1.5rem;
+	padding: 1rem;
+}
+#date {
+	margin-bottom: 0;
+	padding-bottom: .5rem;
+}
+.hero { position: relative; }
+.hero img { max-width: 90%; }
+.forecast { display: none; }
+.map { display: none; }
+.weathersummary {
+	background: radial-gradient(#eeeeee, #2e5098);
+	border: 1px solid #000000;
+	box-shadow: 0 0 30px #111111;
+	left: 3.8rem;
+	line-height: .5rem;
+	opacity: .8;
+	padding: 1rem;
+	position: absolute;
+	top: 1.2rem;
+}
+.info {
+	padding: 3rem 5rem 1rem 5rem;
+	text-align: left;
+}
+
+/* storm center page */
+main {
+    max-width: 50rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+}
+main h2 {
+	margin: .3rem;
+	text-align: center;
+}
+main h3 { margin: .3rem; }
+main form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+	margin: auto;
+	padding: 1rem;
+	max-width: 23rem;
+	text-align: left;
+}
+form fieldset { border: 1px solid #000000; }
+fieldset { border-radius: .5rem; }
+fieldset legend {
+	color:#000000;
+	padding: 0 .4rem;
+}
+form label {
+	font-size: 80%;
+	padding-top: .5rem;
+}
+.inline {
+	width: initial;
+	display: inline-block;
+	padding: 0;
+}
+input[type="range"] { width: 80%; }
+input[type="submit"] {
+	background-color: #2e5098;
+	color:white;
+	padding: .5rem 0;
+	transition: background-color linear .2s, transform linear .2s;
+	width: 100%;
+}
+input[type="submit"]:hover {
+	background-color: #0baeff;
+	color:#ffffff;
+}
+input, textarea, select { 
+	padding: .5rem .5rem; 
+}
+label, input, select, textarea {
+	display: block;
+	width: 100%;
+}
+
+/* gallery page */
+figure {
+	background-color: #efefef;
+	padding: .5rem;
+	margin: .5rem 0;
+}
+figcaption {
+	text-align: center;
+	background-color: #efefef;
+	
+}
+.required { color: red; }
+
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: .5rem;
+}
+.gallery img {
+	border: 1px;
+	border-color: #000;
+	border-style: solid;
+	width: 100%;
+}
+
+/* footer section */
+footer {
+	background-color: #2e5098;
+	color: #ffffff;
+	padding: .10rem;
+	text-align: center;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
