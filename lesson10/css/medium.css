@@ -39,13 +39,13 @@
 	}
 
 	/* preston page */
-	.prestonnews { font-size: 1rem; }
-	.prestonnews img {
+	.news { font-size: 1rem; }
+	.news img {
 		width: 16rem;
 		float: right;
 		margin: 1rem;
 	}
-	.prestonnews h3 { font-size: 1.2rem; }
+	.news h3 { font-size: 1.2rem; }
 	.map {
 		border: 1px solid #000000;
 		display: block;

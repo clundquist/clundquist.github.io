@@ -1,4 +1,4 @@
-var t = parseFloat(document.getElementById("highTemp").innerText);
+var t = parseFloat(document.getElementById("high").innerText);
 var s = parseFloat(document.getElementById("windSpeed").innerText);
 var results = "N/A";
 

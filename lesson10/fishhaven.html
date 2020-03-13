@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="The Weather Lowdown - Town of Preston">
+    <meta name="description" content="The Weather Lowdown - Town of Fish Haven">
 
-    <title>The Weather Lowdown - Town of Preston</title>
+    <title>The Weather Lowdown - Town of Fish Haven</title>
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="css/large.css">
   </head>
   <body>
-    <div id="notice">
-      Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park.
-    </div>
     <header>
       <picture>
         <img src="images/logo.png" alt="logo">
@@ -30,15 +27,15 @@
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="navbar">
         <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html" class="active">Preston</a></li>
+        <li><a href="preston.html">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
     </nav>
     <main>
-        <h2 id="townname">Preston Idaho</h2>
+        <h2 id="townname">Fish Haven Idaho</h2>
         <div class="hero">
           <picture>
             <source media="(max-width: 500px)" srcset="images/herosmall.jpg">
@@ -101,7 +98,7 @@
           </p>
         </article>
         <div class="contact">
-          <iframe title="Map of Preston" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47367.811591065154!2d-111.87741732631261!3d42.097013527206805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1584052589955!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe title="Map of Fish Haven" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d268384.710569052!2d-111.3666796117115!3d41.99469235226344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20ID%2083287!5e0!3m2!1sen!2sus!4v1584121003957!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <div class="info">
             <p>
               The Weather Lowdown<br>
@@ -123,7 +120,6 @@
         <span id="currentDate"></span>
       </p>
     </footer>
-    <script src="js/notice.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
