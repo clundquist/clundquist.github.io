@@ -1,0 +1,98 @@
+@media only screen and (min-width: 35rem) {
+	/* heading section */
+	.headings h1 {
+		font-size: 2rem;
+		margin-left: .3rem;
+	}
+	.moto {
+		letter-spacing: 1.5pt;
+		font-size: small;
+		margin-left: .5rem;
+	}
+
+	/* navigation section */
+	nav button { display: none; }
+	nav ul { display: flex;	}
+	nav ul.hide { display: flex; }
+	nav ul li { flex: 1 1 100%; }
+	nav ul li a {
+		border: none;
+        font-size: .8rem;
+        text-align: center;
+        white-space: nowrap;
+	}
+
+	/* home page */
+	.cities section {
+		display: grid;
+		background-color: #dce5ef;
+		grid-template-columns: repeat(2, 1fr);
+		text-align: left;
+	}
+	.cities h3 { font-size: 1rem; }
+	.cities section img { grid-row: 1 / 6; }
+	.cities :nth-child(2) :nth-child(6) { grid-column: 2 / 3; }
+	.lowdown img {
+		width: 16rem;
+		float: left;
+		margin: 1rem;
+	}
+
+	/* preston page */
+	.news { font-size: 1rem; }
+	.news img {
+		width: 16rem;
+		float: right;
+		margin: 1rem;
+	}
+	.news h3 { font-size: 1.2rem; }
+	.map {
+		border: 1px solid #000000;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.forecast {
+		display: block;
+		flex-direction: row;
+		max-width: 28rem;
+		margin: 0 auto;
+	}
+	.week {
+		display: flex;
+		flex-direction: row;
+	}
+	.week div img { padding: .5rem; }
+	.week div:last-child {
+		border-right: 1px solid #000000;
+	}
+	.day {
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+		flex: 1 1 100%;
+		font-size: .7rem;
+	}
+	.label {
+		background-color: #2e5098;
+		border-bottom: 1px solid #000000;
+		color: #ffffff;
+		display: block;
+		font-size: 1.5rem;
+		font-weight: 700;
+		padding: .3rem;
+	}
+	.temp {
+		color: #000000;
+		display: block;
+		padding: .3rem;
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+
+	/* gallery page */
+	.gallery {
+		grid-gap: 1rem;
+		grid-template-columns: 1fr 1fr;
+	}
+}
