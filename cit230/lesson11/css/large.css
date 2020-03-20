@@ -1,5 +1,4 @@
 @media only screen and (min-width: 64rem) {
-	/* heading */
 	.headings h1 {
 		font-size: 3rem;
 		margin-left: .5rem;
@@ -13,7 +12,6 @@
 	nav ul li a { font-size: 1rem; }
 	nav button { display: none; }
 	
-	/* home page */
 	.cities section { 
 		display: block;
 		line-height: normal;
@@ -33,7 +31,6 @@
 		padding: 0 0 0 0;
 	}
 	
-	/* gallery page */
 	.gallery {
 		grid-gap: 1rem;
 		grid-template-columns: 1fr 1fr 1fr;

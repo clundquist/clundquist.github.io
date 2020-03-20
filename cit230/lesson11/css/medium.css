@@ -1,5 +1,4 @@
 @media only screen and (min-width: 35rem) {
-	/* heading section */
 	.headings h1 {
 		font-size: 2rem;
 		margin-left: .3rem;
@@ -10,7 +9,6 @@
 		margin-left: .5rem;
 	}
 
-	/* navigation section */
 	nav button { display: none; }
 	nav ul { display: flex;	}
 	nav ul.hide { display: flex; }
@@ -22,7 +20,6 @@
         white-space: nowrap;
 	}
 
-	/* home page */
 	.cities section {
 		display: grid;
 		background-color: #dce5ef;
@@ -38,7 +35,6 @@
 		margin: 1rem;
 	}
 
-	/* preston page */
 	.news { font-size: 1rem; }
 	.news img {
 		width: 16rem;
@@ -90,7 +86,6 @@
 		font-size: 1.5rem;
 	}
 
-	/* gallery page */
 	.gallery {
 		grid-gap: 1rem;
 		grid-template-columns: 1fr 1fr;

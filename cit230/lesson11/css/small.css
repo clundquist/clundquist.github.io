@@ -7,7 +7,6 @@ body {
 	text-align: center;
 }
 
-/* heading section */
 #notice {
 	background-color: #efcc00;
 	display: none;
@@ -45,7 +44,6 @@ header img {
 	text-align: left;
 }
 
-/* navigtion section */
 nav {
 	clear: left;
 	background-color: #efcc00; 
@@ -80,7 +78,6 @@ nav ul.hide { display: none; }
 	color: #000000;
 }
 
-/* home page */
 .cities { margin: 1rem 1rem 1rem 1rem; }
 .cities section { margin: 1rem 0 1rem 0; }
 .cities section img { width: 100%; }
@@ -98,7 +95,6 @@ nav ul.hide { display: none; }
 	text-align: left;
 }
 
-/* preston page */
 .news, .lowdown {
 	background-color: #dce5ef;
 	display: block;
@@ -144,7 +140,6 @@ nav ul.hide { display: none; }
 	top: 1.2rem;
 }
 
-/* storm center page */
 main {
     max-width: 50rem;
 	margin: 0 auto;
@@ -199,7 +194,6 @@ label, input, select, textarea {
 	width: 100%;
 }
 
-/* gallery page */
 figure {
 	background-color: #efefef;
 	padding: .5rem;
@@ -224,7 +218,6 @@ figcaption {
 	width: 100%;
 }
 
-/* footer section */
 footer {
 	background-color: #2e5098;
 	color: #ffffff;
