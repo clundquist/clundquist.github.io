@@ -37,22 +37,26 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Contact information</legend>
-          <label>Name<span class="required"> *</span><input type="text" name="fullname" pattern="[A-Za-z ]{5,}" placeholder="at least 5 characters" required></label>
-          <label>Email<input type="email" name="email" placeholder="example@domain.com"></label>
-          <label>Phone<span class="required"> *</span><input type="tel" name="phonenumber" required></label>
+          <label for="fullname">Name<span class="required"> *</span></label>
+          <input type="text" id="fullname" name="fullname" pattern="[A-Za-z ]{5,}" placeholder="at least 5 characters" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="example@domain.com">
+          <label for="phonenumber">Phone<span class="required"> *</span></label>
+          <input type="tel" id="phonenumber" name="phonenumber" required>
         </fieldset>
         <fieldset>
           <legend>Adventure information</legend>
-          <label for="startdate">Start Date<input type="date" name="startdate"></label>
-          <label for="adventure">Adventure
-            <select name="adventure">
-              <option value="select" disabled selected>Select your Adventure ...</option>
-              <option value="rafting">Rafting</option>
-              <option value="kayaking">Kayaking</option>
-              <option value="camping">Camping</option>
-            </select>
-          </label>
-          <label for="comments">Comments<textarea name="information" id="comments" placeholder="Write something ..."></textarea></label>
+          <label for="startdate">Start Date</label>
+          <input type="date" id="startdate" name="startdate">
+          <label for="adventure">Adventure</label>
+          <select id="adventure" name="adventure">
+            <option value="select" disabled selected>Select your Adventure ...</option>
+            <option value="rafting">Rafting</option>
+            <option value="kayaking">Kayaking</option>
+            <option value="camping">Camping</option>
+          </select>
+          <label for="comments">Comments</label>
+          <textarea name="information" id="comments" placeholder="Write something ..."></textarea>
         </fieldset>
         <input type="submit" name="submit" value="Book Now">
       </form>
