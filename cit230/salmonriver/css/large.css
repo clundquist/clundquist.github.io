@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64rem) {
+	.headings h1 {
+		font-size: 3rem;
+		margin-left: .5rem;
+	}
+	.hero img { width: 90%; }
+	.moto {
+		letter-spacing: .1rem;
+		font-size: large;
+		margin-left: 1.2rem;
+	}
+	nav ul li a { font-size: 1rem; }
+	nav button { display: none; }
+
+    .card { display: block; }
+
+	.activities section { 
+		display: block;
+		line-height: normal;
+	}
+	.activities {
+		background-color: #5db5ef;
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: repeat(3, 1fr);
+		padding: 15px;
+		margin: 15px;
+	}
+	.activities p, .activities h2, .activities h3 { text-align: center; }
+	.activities h3 { padding: 5px; }	
+	.activities p {
+		font-size: .8rem;
+		padding: 0 0 0 0;
+	}
+
+    .guides {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+	
+	.contact {
+		grid-template-columns: 1fr 1fr;
+	}
+}

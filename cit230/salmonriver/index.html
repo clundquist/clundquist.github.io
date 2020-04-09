@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Salmon River Adventures">
+
+    <title>Salmon River Adventures</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="images/logo.png" alt="logo">
+      </picture>
+      <section class="headings">
+        <h1>Salmon River Adventures</h1>
+        <div class="moto">Your Ultimate River Adventure</div>
+      </section>
+    </header>
+    <nav>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navbar" class="hide">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="guides.html">River Guide</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2 id="townname">Riggins Idaho</h2>
+        <div class="hero">
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/hero-s.jpg">
+            <source media="(max-width: 800px)" srcset="images/hero-m.jpg">
+            <img src="images/hero-l.jpg" alt="White water kayaking">
+          </picture>
+          <div class="weathersummary">
+            <h3>Riggins Weather</h3>
+            <p>Currently: <span id="currently"></span></p>
+            <p>High: <span id="high"></span></p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="windSpeed"></span></p>
+          </div>
+        </div>
+        <div class="activities"></div>
+      </main>
+    <footer>
+      <p><span id="footerText"></span></p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/activities.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({google: {families: ['Roboto']}});
+    </script>
+  </body>
+</html>
