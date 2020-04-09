@@ -5,4 +5,4 @@ var dayOfWeek = dayArray[today.getDay()];
 var monthName = monthArray[today.getMonth()];
 var currentDate = dayOfWeek + ", " + today.getDate() + " " + monthName + " " + (today.getYear() + 1900);
 
-document.getElementById("footerText").innerHTML = "&copy; Salmon River Adventures | Riggins, Idaho<br>" + currentDate;
+document.getElementById("footerText").innerHTML = "&copy; Salmon River Adventures | Riggins, Idaho | <a href='Resources.html'>Site Resources</a><br>" + currentDate;

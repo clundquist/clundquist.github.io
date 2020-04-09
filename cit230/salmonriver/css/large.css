@@ -36,7 +36,7 @@
     .guides {
         display: grid;
         grid-template-columns: 50% 50%;
-    }
+	}
 	
 	.contact {
 		grid-template-columns: 1fr 1fr;

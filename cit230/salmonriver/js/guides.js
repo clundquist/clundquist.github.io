@@ -22,7 +22,7 @@ fetch(requestURL)
       bio.textContent = riverguide.bio;
       email.textContent = `${riverguide.email}`;
       years.textContent = `Years of experience: ${riverguide.years}`;
-      level.textContent = `Certification level: ${riverguide.level}`;
+      level.textContent = `Skill level: ${riverguide.level}`;
 
       image.setAttribute('src', `images/${riverguide.photo}`);
       image.setAttribute('alt', `${name.textContent}`);

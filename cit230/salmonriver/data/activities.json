@@ -3,26 +3,26 @@
     {
       "name": "River Kayaking",
       "photo": "riverkayaking.jpg",
-      "motto": "Where you will grow!",
-      "yearFounded": 1788,
-      "currentPopulation": 30458,
-      "averageRainfall": 21
+      "length": "1 day",
+      "level": "Intermediate/Advanced",
+      "cost": "$150",
+      "services": "All equipment provided"
     },
     {
       "name": "River Rafting",
       "photo": "riverrafting.jpg",
-      "motto": "This is Fish Heaven.",
-      "yearFounded": 1864,
-      "currentPopulation": 501,
-      "averageRainfall": 14.20
+      "length": "1 day",
+      "level": "All skill levels",
+      "cost": "$75",
+      "services": "Lunch and equipment provided"
     },
     {
       "name": "River Float",
       "photo": "riverfloat.jpg",
-      "motto": "Green is our way of life.",
-      "yearFounded": 1805,
-      "currentPopulation": 33458,
-      "averageRainfall": 25
+      "length": "1/2 day",
+      "level": "All skill levels",
+      "cost": "$50",
+      "services": "All equipment provided"
     }
   ]
 }

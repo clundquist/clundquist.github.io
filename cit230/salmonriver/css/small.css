@@ -87,6 +87,11 @@ nav ul.hide { display: none; }
 	padding: 5px 5px;
 }
 
+.guides p {
+	font-size: .8rem;
+	padding: 0 0 0 0;
+}
+
 .contact {
 	color: #000000;
 	display: grid;
@@ -180,6 +185,13 @@ footer {
 	color: #ffffff;
 	padding: .10rem;
 	text-align: center;
+}
+footer a { 
+	color: #ffffff;
+	text-decoration: none;
+ }
+footer a:hover {
+	color: #f68121;
 }
 
 .clearfix:after {
