@@ -7,11 +7,6 @@ body {
 	text-align: center;
 }
 
-#notice {
-	background-color: #efcc00;
-	display: none;
-	padding: .5em;
-}
 header {
 	align-items:center;
 	background-color: #005183;
